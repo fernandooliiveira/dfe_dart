@@ -1,7 +1,7 @@
-import 'package:zeus_nfe_dart/src/extensions/date_time_extension.dart';
+import 'package:dfe_dart/src/enum/_init.dart';
+import 'package:dfe_dart/src/extensions/date_time_extension.dart';
+import 'package:dfe_dart/src/nfe.dart';
 
-import 'enum/_init.dart';
-import 'nfe.dart';
 
 class Ide {
   EEstado cUF;

@@ -1,5 +1,5 @@
-import 'package:zeus_nfe_dart/src/ide.dart';
-import 'package:zeus_nfe_dart/src/inf_nfce.dart';
+import 'package:dfe_dart/src/ide.dart';
+import 'package:dfe_dart/src/inf_nfce.dart';
 
 class Nfe {
   InfNfce infNfce;

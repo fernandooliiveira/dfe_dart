@@ -1,4 +1,4 @@
-import 'package:zeus_nfe_dart/src/enum/_init.dart';
+import 'package:dfe_dart/src/enum/_init.dart';
 
 class EnderecoConsultaPublicaNfce {
   final ETipoAmbiente tipoAmbiente;

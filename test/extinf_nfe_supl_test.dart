@@ -1,11 +1,8 @@
-import 'dart:io';
-import 'dart:typed_data';
-
-import 'package:zeus_nfe_dart/src/enum/_init.dart';
-import 'package:zeus_nfe_dart/src/ide.dart';
-import 'package:zeus_nfe_dart/src/inf_nfce.dart';
-import 'package:zeus_nfe_dart/src/nfe.dart';
-import 'package:zeus_nfe_dart/zeus_nfe_dart.dart';
+import 'package:dfe_dart/dfe_dart.dart';
+import 'package:dfe_dart/src/enum/_init.dart';
+import 'package:dfe_dart/src/ide.dart';
+import 'package:dfe_dart/src/inf_nfce.dart';
+import 'package:dfe_dart/src/nfe.dart';
 import 'package:test/test.dart';
 
 

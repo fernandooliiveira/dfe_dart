@@ -1,5 +1,5 @@
-import 'package:zeus_nfe_dart/src/enum/_init.dart';
-import 'package:zeus_nfe_dart/src/ide.dart';
+import 'package:dfe_dart/src/ide.dart';
+import 'package:dfe_dart/dfe_dart.dart';
 
 class InfNfce {
   EVersaoServico versao;

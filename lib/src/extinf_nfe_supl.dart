@@ -1,7 +1,6 @@
-import 'package:zeus_nfe_dart/src/endereco_consulta_publica_nfce.dart';
-import 'package:zeus_nfe_dart/src/enum/_init.dart';
-import 'package:zeus_nfe_dart/src/inf_nfe_supl.dart';
-import 'package:zeus_nfe_dart/src/nfe.dart';
+import 'package:dfe_dart/src/endereco_consulta_publica_nfce.dart';
+import 'package:dfe_dart/src/enum/_init.dart';
+import 'package:dfe_dart/src/nfe.dart';
 
 class ExistNFeSupl {
   static List<EnderecoConsultaPublicaNfce> endQrCodeNfce = carregaUrls();
@@ -37,7 +36,7 @@ class ExistNFeSupl {
       }
     }
 
-    final versao3 = [EVersaoServico.versao310];
+    // final versao3 = [EVersaoServico.versao310];
     final versao4 = [EVersaoServico.versao400];
     final versao3e4 = [EVersaoServico.versao310, EVersaoServico.versao400];
 
