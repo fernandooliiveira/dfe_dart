@@ -5,7 +5,7 @@ import 'package:dfe_dart/src/inf_nfce.dart';
 import 'package:dfe_dart/src/nfe.dart';
 import 'package:test/test.dart';
 
-
+//teste
 void main() {
   group('A group of tests', () {
     setUp(() {
