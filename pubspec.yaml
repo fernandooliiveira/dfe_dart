@@ -1,17 +1,22 @@
-name: dfe_dart
-description: A starting point for Dart libraries or applications.
+name: xml_sign_dart
+description: Biblioteca para assinar XMLs e executar integracoes SEFAZ para NF-e/NFC-e em Dart.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.2.0
+  sdk: '^3.9.0'
 
-# Add regular dependencies here.
+topics:
+  - nfe
+  - nfce
+  - sefaz
+  - assinatura-xml
+
 dependencies:
-  # path: ^1.8.0
-  xml: ^6.5.0
-  intl: ^0.18.1
+  xml: ^6.6.1
+  pointycastle: ^4.0.0
+  basic_utils: ^5.8.2  # parser PEM/X.509/PKCS#8
+  convert: ^3.1.2
+  crypto: ^3.0.6
 
 dev_dependencies:
-  lints: ^2.1.0
-  test: ^1.24.0
+  test: ^1.25.0
