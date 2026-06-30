@@ -3,6 +3,6 @@ enum EConsumidorFinal {
   cfConsumidorFinal("Consumidor final", "1");
 
   final String description;
-  final String xmlEnum;
-  const EConsumidorFinal(this.description, this.xmlEnum);
+  final String xmlValue;
+  const EConsumidorFinal(this.description, this.xmlValue);
 }

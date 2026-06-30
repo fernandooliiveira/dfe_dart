@@ -5,7 +5,7 @@ enum ProcessoEmissao {
   peContribuinteAplicativoFisco("Emissão de NF-e pelo contribuinte com aplicativo fornecido pelo Fisco", "3");
 
   final String description;
-  final String xmlEnum;
+  final String xmlValue;
 
-  const ProcessoEmissao(this.description, this.xmlEnum);
+  const ProcessoEmissao(this.description, this.xmlValue);
 }

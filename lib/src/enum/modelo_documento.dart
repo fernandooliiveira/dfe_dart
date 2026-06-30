@@ -5,6 +5,6 @@ enum EModeloDocumento {
   nfCe("65"),
   cTeOs("67");
 
-  final String name;
-  const EModeloDocumento(this.name);
+  final String xmlValue;
+  const EModeloDocumento(this.xmlValue);
 }

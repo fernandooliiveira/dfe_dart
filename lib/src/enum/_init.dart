@@ -14,3 +14,7 @@ export 'tipo_nfe.dart';
 export 'versao_servico.dart';
 export 'tipo_url_consulta.dart';
 export 'versao_qrcode.dart';
+export 'crt.dart';
+export 'forma_pagamento.dart';
+export 'modalidade_frete.dart';
+export 'indicador_ie_dest.dart';

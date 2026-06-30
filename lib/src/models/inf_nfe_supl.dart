@@ -5,11 +5,11 @@ class InfNFeSupl {
   String? urlChave;
 
   void readXml(XmlElement element) {
-    qrCode = element.findElements('qrCode').single.value;
+    qrCode = element.findElements('qrCode').single.innerText;
 
-    var urlChaveElements = element.findElements('urlChave');
+    final urlChaveElements = element.findElements('urlChave');
     if (urlChaveElements.isNotEmpty) {
-      urlChave = urlChaveElements.single.value;
+      urlChave = urlChaveElements.single.innerText;
     }
   }
 

@@ -29,6 +29,6 @@ enum EEstado {
   an("91"),
   ex("99");
 
-  final String name;
-  const EEstado(this.name);
+  final String codigo;
+  const EEstado(this.codigo);
 }

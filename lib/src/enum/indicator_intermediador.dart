@@ -3,7 +3,7 @@ enum EIndicadorIntermediador {
   iiSitePlataformaTerceiros("Operação em site ou plataforma de terceiros (intermediadores / marketplace)", "1");
 
   final String description;
-  final String xmlEnum;
+  final String xmlValue;
 
-  const EIndicadorIntermediador(this.description, this.xmlEnum);
+  const EIndicadorIntermediador(this.description, this.xmlValue);
 }

@@ -4,6 +4,6 @@ enum EIndicadorPagamento {
   ipOutras("Outros", "2");
 
   final String description;
-  final String name;
-  const EIndicadorPagamento(this.description, this.name);
+  final String xmlValue;
+  const EIndicadorPagamento(this.description, this.xmlValue);
 }

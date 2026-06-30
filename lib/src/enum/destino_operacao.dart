@@ -4,6 +4,6 @@ enum EDestinoOperacao {
   doExterior("Operação com exterior", "3");
 
   final String description;
-  final String name;
-  const EDestinoOperacao(this.description, this.name);
+  final String xmlValue;
+  const EDestinoOperacao(this.description, this.xmlValue);
 }

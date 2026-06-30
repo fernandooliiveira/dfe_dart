@@ -1,16 +1,12 @@
-import 'package:dfe_dart/src/endereco_consulta_publica_nfce.dart';
+import 'package:dfe_dart/src/models/endereco_consulta_publica_nfce.dart';
 import 'package:dfe_dart/src/enum/_init.dart';
-import 'package:dfe_dart/src/nfe.dart';
+import 'package:dfe_dart/src/models/nfe.dart';
 
-class ExistNFeSupl {
-  static List<EnderecoConsultaPublicaNfce> endQrCodeNfce = carregaUrls();
+class ExtInfNFeSupl {
+  static final List<EnderecoConsultaPublicaNfceModel> endQrCodeNfce = carregaUrls();
 
-  ExistNFeSupl() {
-    // endQrCodeNfce = carregaUrls();
-  }
-
-  static List<EnderecoConsultaPublicaNfce> carregaUrls() {
-    List<EnderecoConsultaPublicaNfce> endQrCodeNfce = [];
+  static List<EnderecoConsultaPublicaNfceModel> carregaUrls() {
+    List<EnderecoConsultaPublicaNfceModel> endQrCodeNfce = [];
 
     adicionaUrl({
       required ETipoAmbiente tipoAmbiente,
@@ -22,7 +18,7 @@ class ExistNFeSupl {
         for (var qrCode in versaoQrCode) {
           for (var servico in endereco.servicos) {
             endQrCodeNfce.add(
-              EnderecoConsultaPublicaNfce(
+              EnderecoConsultaPublicaNfceModel(
                 tipoAmbiente: tipoAmbiente,
                 estado: endereco.estado,
                 tipoUrlConsultaPublica: tipoUrlConsultaPublica,
@@ -319,8 +315,6 @@ class ExistNFeSupl {
   static String obterUrlConsulta({
     required Nfe nfe,
     required EVersaoQrCode versaoQrCode,
-    // required String cIdToken,
-    // required String csc,
   }) {
     return obterUrl(
       tipoAmbiente: nfe.infNfce.ide.tpAmb,

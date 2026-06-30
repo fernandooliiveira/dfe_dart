@@ -8,7 +8,7 @@ enum EPresencaComprador {
   pcOutros("Operação não presencial, outros", "9");
 
   final String description;
-  final String xmlEnum;
+  final String xmlValue;
 
-  const EPresencaComprador(this.description, this.xmlEnum);
+  const EPresencaComprador(this.description, this.xmlValue);
 }

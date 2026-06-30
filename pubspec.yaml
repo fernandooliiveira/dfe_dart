@@ -8,9 +8,11 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
   xml: ^6.5.0
   intl: ^0.18.1
+  pointycastle: ^3.7.3
+  asn1lib: ^1.5.4
+  qr: ^3.0.1
 
 dev_dependencies:
   lints: ^2.1.0

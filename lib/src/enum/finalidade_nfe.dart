@@ -5,6 +5,6 @@ enum EFinalidadeNFe {
   fnDevolucao("Devolução de mercadoria", "4");
 
   final String description;
-  final String xmlEnum;
-  const EFinalidadeNFe(this.description, this.xmlEnum);
+  final String xmlValue;
+  const EFinalidadeNFe(this.description, this.xmlValue);
 }

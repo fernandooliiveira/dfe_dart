@@ -9,6 +9,6 @@ enum ETipoEmissao {
   teOffLine("Contingência off-line", "9");
 
   final String description;
-  final String xmlEnum;
-  const ETipoEmissao(this.description, this.xmlEnum);
+  final String xmlValue;
+  const ETipoEmissao(this.description, this.xmlValue);
 }

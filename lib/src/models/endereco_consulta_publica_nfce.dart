@@ -1,6 +1,6 @@
 import 'package:dfe_dart/src/enum/_init.dart';
 
-class EnderecoConsultaPublicaNfce {
+class EnderecoConsultaPublicaNfceModel {
   final ETipoAmbiente tipoAmbiente;
   final EEstado estado;
   final ETipoUrlConsultaPublica tipoUrlConsultaPublica;
@@ -8,7 +8,7 @@ class EnderecoConsultaPublicaNfce {
   final EVersaoServico versaoServico;
   final EVersaoQrCode versaoQrCode;
 
-  EnderecoConsultaPublicaNfce({
+  EnderecoConsultaPublicaNfceModel({
     required this.tipoAmbiente,
     required this.estado,
     required this.tipoUrlConsultaPublica,

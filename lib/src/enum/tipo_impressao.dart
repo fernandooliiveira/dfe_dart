@@ -7,6 +7,6 @@ enum ETipoImpressao {
   tiMsgEletronica("DANFe NFC-e em mensagem eletrônica", "5");
 
   final String description;
-  final String xmlEnum;
-  const ETipoImpressao(this.description, this.xmlEnum);
+  final String xmlValue;
+  const ETipoImpressao(this.description, this.xmlValue);
 }

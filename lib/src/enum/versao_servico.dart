@@ -5,6 +5,6 @@ enum EVersaoServico {
   versao310("3.10"),
   versao400("4.00");
 
-  final String name;
-  const EVersaoServico(this.name);
+  final String xmlValue;
+  const EVersaoServico(this.xmlValue);
 }

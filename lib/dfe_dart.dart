@@ -1,4 +1,61 @@
 library;
 
+// Enums
+export 'src/enum/crt.dart';
+export 'src/enum/forma_pagamento.dart';
+export 'src/enum/modalidade_frete.dart';
+export 'src/enum/indicador_ie_dest.dart';
+export 'src/enum/consumidor_final.dart';
+export 'src/enum/destino_operacao.dart';
+export 'src/enum/estado.dart';
+export 'src/enum/finalidade_nfe.dart';
+export 'src/enum/indicador_pagamento.dart';
+export 'src/enum/indicator_intermediador.dart';
+export 'src/enum/modelo_documento.dart';
+export 'src/enum/presenca_comprador.dart';
+export 'src/enum/processo_emissao.dart';
+export 'src/enum/tipo_ambiente.dart';
+export 'src/enum/tipo_emissao.dart';
+export 'src/enum/tipo_impressao.dart';
+export 'src/enum/tipo_nfe.dart';
+export 'src/enum/tipo_url_consulta.dart';
+export 'src/enum/versao_qrcode.dart';
 export 'src/enum/versao_servico.dart';
-export 'src/extinf_nfe_supl.dart';
+
+// Models
+export 'src/models/endereco_consulta_publica_nfce.dart';
+export 'src/models/extinf_nfe_supl.dart';
+export 'src/models/ide.dart';
+export 'src/models/inf_nfce.dart';
+export 'src/models/inf_nfe_supl.dart';
+export 'src/models/nfe.dart';
+export 'src/models/emit.dart';
+export 'src/models/dest.dart';
+export 'src/models/endereco.dart';
+export 'src/models/prod.dart';
+export 'src/models/transp.dart';
+export 'src/models/pag.dart';
+export 'src/models/det.dart';
+export 'src/models/total.dart';
+export 'src/models/imposto/icms.dart';
+export 'src/models/imposto/pis.dart';
+export 'src/models/imposto/cofins.dart';
+export 'src/models/imposto/imposto.dart';
+
+// Services
+export 'src/services/assinador_xml.dart';
+export 'src/services/pkcs12_reader.dart';
+export 'src/services/gerador_qrcode_nfce.dart';
+export 'src/services/sefaz/nfce_servico.dart';
+export 'src/services/sefaz/sefaz_client.dart';
+export 'src/services/sefaz/soap_builder.dart';
+export 'src/services/sefaz/endereco_sefaz.dart';
+export 'src/services/sefaz/tipo_servico_sefaz.dart';
+export 'src/services/sefaz/retorno/retorno_sefaz_base.dart';
+export 'src/services/sefaz/retorno/retorno_status.dart';
+export 'src/services/sefaz/retorno/retorno_autorizacao.dart';
+export 'src/services/sefaz/retorno/retorno_evento.dart';
+export 'src/services/sefaz/retorno/retorno_inutilizacao.dart';
+
+// Utils
+export 'src/utils/extensions/date_time_extension.dart';

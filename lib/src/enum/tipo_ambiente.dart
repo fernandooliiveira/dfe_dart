@@ -3,6 +3,6 @@ enum ETipoAmbiente {
   homologacao("Homologação", "2");
 
   final String description;
-  final String name;
-  const ETipoAmbiente(this.description, this.name);
+  final String xmlValue;
+  const ETipoAmbiente(this.description, this.xmlValue);
 }
